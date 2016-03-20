@@ -1,0 +1,19 @@
+{
+  "name": "docpad-website-tester",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "http-server": "^0.9.0",
+    "joe": "^1.6.0",
+    "joe-reporter-compact": "^0.1.4",
+    "joe-reporter-console": "^1.2.1",
+    "superagent": "^1.8.1"
+  }
+}
