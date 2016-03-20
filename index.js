@@ -26,7 +26,7 @@ function runTests(host, port) {
 	siteUrl = "http://" + ip + ":" + pt;
 	request.get(siteUrl).end(function (error, res) {
 		if (res && res.statusCode === HTTP_OK) {
-			console.log("!!!SERVER ALREADY RUNNING ON " + siteUrl);
+			console.log("Server is already running on " + siteUrl);
 			//if the server is already running then we have no need
 			//to pass a server object to initializeTests as we don't
 			//need to shut it down
